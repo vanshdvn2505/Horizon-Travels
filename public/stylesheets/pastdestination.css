@@ -1,0 +1,15 @@
+.user-info{
+    padding: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.user-info-user-name, .user-info-email{
+    background-color: aquamarine;
+}
+.past-bookings{
+    padding: 6px;
+}
+.past-bookings h3{
+    font-size: 25px;
+}

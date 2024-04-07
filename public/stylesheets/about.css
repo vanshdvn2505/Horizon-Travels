@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #0f1111;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(135, 202, 192, 0.71);
+}
+
+h4 {
+    margin-left: 5px;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 28px;
+}
+
+.menu-icon,
+.heading {
+    padding: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.option {
+    margin-right: 10px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.04s;
+}
+
+.option:hover {
+    font-weight: 500;
+    /* font-size: 24px; */
+}
+.special-option {
+    /* border: 1px solid blue; */
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.04s;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.special-option:hover {
+    background-color: rgba(0, 0, 0, 0.863);
+    color: #efefef;
+    border-radius: 10px;
+}
+.description p{
+    padding: 8px;
+}
+.faq{
+    padding: 6px;
+    background-color: rgba(135, 202, 192, 0.71);
+    margin-bottom: 2px;
+    text-align: center;
+}
+.ques{
+    font-size: 22px;
+    padding: 3px;
+}
+.ans{
+    font-size: 16px;
+    padding: 3px;
+}
+.back {
+    background-color: rgba(135, 202, 192, 0.71);
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.foot-panel2 {
+    background-color: rgba(135, 202, 192);
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-top: 20px;
+    color: black;
+}
+
+ul h4 {
+    color: black;
+    margin: 0;
+}
+
+.foot-panel3 {
+    background-color: #87cac0;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    border-top: 0.5px solid white;
+    text-align: center;
+    height: 76px;
+    justify-content: center;
+
+}
+
+.pages {
+    font-size: 0.7rem;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.condn {
+    margin: 3px;
+}
+
+.copyright {
+    padding-top: 10px;
+    font-size: 0.67rem;
+}

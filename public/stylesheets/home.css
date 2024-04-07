@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(135, 202, 192, 0.71);
+}
+h4{
+    margin-left: 5px;
+}
+.main-logo{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 28px;
+}
+.menu-icon, .heading{
+    padding: 10px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.option{
+    margin-right: 10px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.04s;
+}
+.option:hover{
+    font-weight: 500;
+    /* font-size: 24px; */
+}
+a{
+    text-decoration: none;
+    color: #0f1111;
+}
+.special-option{
+    /* border: 1px solid blue; */
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.04s;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.special-option:hover{
+    background-color: rgba(0, 0, 0, 0.863);
+    color: #efefef;
+    border-radius: 10px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/images/mountain.avif");
+}
+.card{
+    position: relative;
+    width: 500px;
+    height: 230px;
+    border-radius: 10px;
+    /* box-shadow: 0 5px 20px; */
+    padding: 30px 50px;
+    background-color: rgba(55, 54, 32, 0);
+    margin-right: 30px;
+}
+.img-box{
+    width: 100%;
+    height: 100%;   
+    border-radius: 10px;
+    transform: translateY(-80px);
+}
+.img-box img{
+    width: 100%;
+    border-radius: 10px;
+}
+.content{
+    padding: 10px 20px;
+    text-align: center;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.357);
+    border-radius: 10px;
+    transform: translateY(-200px);
+    color: white;
+}
+.content h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content input{
+    width: 200px;
+    text-align: center;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.content input::placeholder{
+    text-align: center;
+}
+.search-btn{
+    display: flex;
+    justify-content: center;
+    /* transform: translateY(-10px); */
+}
+.search-btn button{
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #87cac0;
+}
+.search-btn button:hover{
+    background-color: #87cac08e;
+}
+.cards{
+    /* margin-top: 7px; */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../images/paradise-beach.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cards h2{
+    padding: 7px;
+    color: #efefef;
+}
+.hotel-cards{
+    display: flex;
+    justify-content: center ;
+}
+.hotel-card{
+    padding: 10px;
+    background-color: #efefef;
+    margin: 10px;
+    border-radius: 10px;
+}
+.hotel-card .image-box img{
+    width: 335px;
+    height: 268px;
+}
+.cards h2{
+    text-align: center;
+}
+.hotel-card .hotel-content{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.863);
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    justify-content: center;
+}
+.hotel-card img{
+    border-radius: 10px;
+}
+.hotel-card:hover{
+    box-shadow: 1px 1px 1px 1px rgba(135, 202, 192, 0.71);
+}
+.back {
+    background-color: rgba(135, 202, 192, 0.71);
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.foot-panel2 {
+    background-color: rgba(135, 202, 192);
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-top: 20px;
+    color: black;
+}
+
+ul h4 {
+    color: black;
+    margin: 0;
+}
+.foot-panel3 {
+    background-color: #87cac0;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+}
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    border-top: 0.5px solid white;
+    text-align: center;
+    height: 76px;
+    justify-content: center;
+
+}
+.pages {
+    font-size: 0.7rem;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.condn {
+    margin: 3px;
+}
+.copyright {
+    padding-top: 10px;
+    font-size: 0.67rem;
+}
