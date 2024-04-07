@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
-    cursor: pointer;
+}
+
+a{
+    cursor: pointer;    
+    text-decoration: none;
+    color: black;
 }
 
 nav {
@@ -10,17 +15,14 @@ nav {
     justify-content: space-between;
     background-color: rgba(135, 202, 192, 0.71);
 }
-
 h4 {
     margin-left: 5px;
 }
-
 .main-logo {
     display: flex;
     justify-content: space-evenly;
     font-size: 28px;
 }
-
 .menu-icon,
 .heading {
     padding: 10px;
@@ -45,12 +47,12 @@ h4 {
     font-weight: 500;
     /* font-size: 24px; */
 }
-
-a {
-    text-decoration: none;
-    color: #0f1111;
+.container{
+    background-color: rgba(135, 202, 192, 0.71);
 }
-
+hr{
+    background-color: white;
+}
 .special-option {
     /* border: 1px solid blue; */
     margin-right: 10px;
@@ -62,23 +64,14 @@ a {
     margin-top: 4px;
     margin-bottom: 4px;
 }
-
+.container{
+    margin-top: 2px;
+}
 .special-option:hover {
     background-color: rgba(0, 0, 0, 0.863);
     color: #efefef;
     border-radius: 10px;
 }
-.container{
-    background-color: rgba(135, 202, 192, 0.71);
-}
-hr{
-    background-color: white;
-}
-
-.container{
-    margin-top: 2px;
-}
-
 .input-field{
     display: flex;
     justify-content: space-around;
@@ -121,7 +114,12 @@ hr{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../images/hotels-div.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 110vh;
+    min-height: 110vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .back {
     background-color: rgba(135, 202, 192, 0.71);
