@@ -110,6 +110,7 @@ btn2.addEventListener('click', async ()=>{
                     headers: {'content-type' : 'application/json'},
                     body: JSON.stringify(obj),
                 })
+                alert("Hotel Booked");
             })
             book.style.border = "1px solid black";
             book.style.padding = "3px";
